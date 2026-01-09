@@ -65,7 +65,6 @@ describe("collateral_vault", () => {
       .initialize(vaultBump)
       .accounts({
         owner: User_Wallet.publicKey,
-        // FIX: Changed 'mint' to 'usdtMint' to match your current IDL error
         usdtMint: usdtMint,
         vault: vaultPda,
         tokenVault: tokenVaultPda, 
